@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+	"CIC",
+	" C "
+  ],
+  "key": {
+    "I": {
+      "item": "centralizedmaterials:iron_dust"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "centralizedmaterials:steel_dust"
+  }
+}

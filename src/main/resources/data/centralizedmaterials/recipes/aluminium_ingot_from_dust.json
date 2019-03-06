@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "centralizedmaterials:aluminium_dust"
+  },
+  "result": "centralizedmaterials:aluminium_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

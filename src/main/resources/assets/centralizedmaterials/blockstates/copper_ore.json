@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "centralizedmaterials:block/copper_ore" }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "centralizedmaterials:electrum_dust"
+  },
+  "result": "centralizedmaterials:electrum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
