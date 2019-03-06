@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TC ",
+	"CC "
+  ],
+  "key": {
+    "T": {
+      "item": "centralizedmaterials:tin_dust"
+    },
+    "C": {
+      "item": "centralizedmaterials:copper_dust"
+    }
+  },
+  "result": {
+    "item": "centralizedmaterials:bronze_dust",
+	"count": 2
+  }
+}

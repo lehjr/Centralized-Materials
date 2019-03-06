@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II ",
+	"N  "
+  ],
+  "key": {
+    "I": {
+      "item": "centralizedmaterials:iron_dust"
+    },
+    "N": {
+      "item": "centralizedmaterials:nickel_dust"
+    }
+  },
+  "result": {
+    "item": "centralizedmaterials:invar_dust",
+	"count": 3
+  }
+}

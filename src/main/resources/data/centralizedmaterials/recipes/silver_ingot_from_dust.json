@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "centralizedmaterials:silver_dust"
+  },
+  "result": "centralizedmaterials:silver_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

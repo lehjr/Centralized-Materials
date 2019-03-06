@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TC ",
+	"CC "
+  ],
+  "key": {
+    "G": {
+      "item": "centralizedmaterials:gold_dust"
+    },
+    "S": {
+      "item": "centralizedmaterials:silver_dust"
+    }
+  },
+  "result": {
+    "item": "centralizedmaterials:electrum_dust",
+	"count": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "invar_ingot",
+  "ingredients": [
+    {
+      "item": "centralizedmaterials:invar_block"
+    }
+  ],
+  "result": {
+    "item": "centralizedmaterials:invar_ingot",
+    "count": 9
+  }
+}

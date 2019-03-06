@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "centralizedmaterials:obsidian_dust"
+  },
+  "result": "centralizedmaterials:obsidian_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

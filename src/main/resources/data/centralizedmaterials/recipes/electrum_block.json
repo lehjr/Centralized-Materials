@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "centralizedmaterials:electrum_ingot"
+    }
+  },
+  "result": {
+    "item": "centralizedmaterials:electrum_block"
+  }
+}

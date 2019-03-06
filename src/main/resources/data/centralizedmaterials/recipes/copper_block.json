@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "centralizedmaterials:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "centralizedmaterials:copper_block"
+  }
+}
