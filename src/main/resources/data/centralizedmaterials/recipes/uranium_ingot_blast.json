@@ -1,0 +1,9 @@
+{
+  "type": "blasting",
+  "ingredient": {
+    "item": "centralizedmaterials:uranium_ore"
+  },
+  "result": "centralizedmaterials:uranium_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

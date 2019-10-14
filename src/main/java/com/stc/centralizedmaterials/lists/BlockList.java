@@ -26,18 +26,4 @@ public class BlockList {
     public static Block aluminium_block;
     public static Block zinc_block;
     public static Block electrum_block;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
