@@ -12,3 +12,17 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# Intellij IDEA
+/.idea
+*.iml
+*.ipr
+*.iws
+/out
+
+# Ignore run dir
+/run
+
+# Mac Stuff
+.DS_Store
+*.command
