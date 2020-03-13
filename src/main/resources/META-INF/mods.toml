@@ -7,7 +7,7 @@ authors="StuffTheChicken" #optional
 
 [[mods]] #mandatory
 modId="centralizedmaterials" #mandatory
-version="1.0.0" #mandatory
+version="${version}" #mandatory
 displayName="Centralized Materials" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/StuffTheChickenMC/Centralized-Materials/master/update.json?token=AJ4M78M9oucAfUTdPLBhMsi5wsKdi0ERks5cfx0XwA%3D%3D" #optional
 description='''

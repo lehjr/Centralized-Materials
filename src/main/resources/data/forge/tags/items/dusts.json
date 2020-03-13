@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#forge:dusts/aluminum",
     "#forge:dusts/aluminium",
     "#forge:dusts/bronze",
     "#forge:dusts/copper",
@@ -14,6 +15,6 @@
     "#forge:dusts/steel",
     "#forge:dusts/tin",
     "#forge:dusts/uranium",
-    "#forge:dusts/zinc",
-      ]
+    "#forge:dusts/zinc"
+  ]
 }

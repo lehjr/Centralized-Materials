@@ -12,7 +12,9 @@ apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 
-version = '1.0.0'
+def buildnumber = System.getenv("BUILD_NUMBER")
+def travisbuildnumber = (System.getenv("TRAVIS_BUILD_NUMBER") ?: -000).toInteger() + 00
+version = "${mod_version}.${buildnumber ?: travisbuildnumber}"
 group = 'com.stc.centralizedmaterials' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'CentralizedMaterials-1.14.4'
 
@@ -88,4 +90,13 @@ jar {
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
+}
+
+task devJar(type: Jar) {
+    from sourceSets.main.output
+    classifier = 'dev'
+}
+
+artifacts {
+    archives devJar
 }
