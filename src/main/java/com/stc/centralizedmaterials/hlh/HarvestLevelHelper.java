@@ -10,8 +10,8 @@ public enum HarvestLevelHelper {
     public final int harvestLevel;
     public final String name;
 
-    private HarvestLevelHelper(String name, int harvestLevel) {
+    HarvestLevelHelper(String name, int harvestLevel) {
         this.harvestLevel = harvestLevel;
-        this.name = this.name();
+        this.name = name;
     }
 }
