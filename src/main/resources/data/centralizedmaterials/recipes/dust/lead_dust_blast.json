@@ -1,0 +1,9 @@
+{
+  "type": "blasting",
+  "ingredient": {
+    "item": "centralizedmaterials:lead_dust"
+  },
+  "result": "centralizedmaterials:lead_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

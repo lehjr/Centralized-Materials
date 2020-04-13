@@ -1,0 +1,9 @@
+{
+  "type": "blasting",
+  "ingredient": {
+    "item": "centralizedmaterials:platinum_dust"
+  },
+  "result": "centralizedmaterials:platinum_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}
