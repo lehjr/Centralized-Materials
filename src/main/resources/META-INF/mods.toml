@@ -1,6 +1,6 @@
 
 modLoader="javafml" #mandatory
-loaderVersion="[25,)" #mandatory (24 is current forge version)
+loaderVersion="[31,)" #mandatory (24 is current forge version)
 #issueTrackerURL="https://github.com/Clownvin/Just-A-Few-More-Ores/issues"
 #displayURL="https://minecraft.curseforge.com/projects/just-a-few-more-ores"
 authors="StuffTheChicken" #optional
@@ -17,13 +17,13 @@ This mod adds the most of common used materials i.e copper, tin, lead, ect with 
 [[dependencies.centralizedmaterials]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[25,)" #mandatory
+    versionRange="[31,)" #mandatory
     ordering="NONE"
     side="BOTH"
 # Here's another dependency
 [[dependencies.centralizedmaterials]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.13.2]"
+    versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"
