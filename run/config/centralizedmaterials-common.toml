@@ -1,0 +1,5 @@
+
+[General]
+	#Enables/Disables New update notification [false/true|default:true]
+	new_update_notifications = true
+
