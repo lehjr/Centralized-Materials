@@ -1,0 +1,9 @@
+{
+  "type": "blasting",
+  "ingredient": {
+    "item": "centralizedmaterials:bronze_dust"
+  },
+  "result": "centralizedmaterials:bronze_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

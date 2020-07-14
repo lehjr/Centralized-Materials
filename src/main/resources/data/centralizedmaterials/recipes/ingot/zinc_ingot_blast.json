@@ -1,0 +1,9 @@
+{
+  "type": "blasting",
+  "ingredient": {
+    "item": "centralizedmaterials:zinc_ore"
+  },
+  "result": "centralizedmaterials:zinc_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}
