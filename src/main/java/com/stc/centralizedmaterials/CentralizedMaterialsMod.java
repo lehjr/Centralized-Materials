@@ -100,8 +100,8 @@ public class CentralizedMaterialsMod {
                     ItemList.platinum_ore = (new BlockItem(BlockList.platinum_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("platinum_ore")),
                     ItemList.silver_ore = (new BlockItem(BlockList.silver_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("silver_ore")),
                     ItemList.tin_ore = (new BlockItem(BlockList.tin_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("tin_ore")),
-                    ItemList.titanium_ore = (new BlockItem(BlockList.titanium_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("tin_ore")),
-                    ItemList.tungsten_ore = (new BlockItem(BlockList.tungsten_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("tin_ore")),
+                    ItemList.titanium_ore = (new BlockItem(BlockList.titanium_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("titanium_ore")),
+                    ItemList.tungsten_ore = (new BlockItem(BlockList.tungsten_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("tungsten_ore")),
                     ItemList.uranium_ore = (new BlockItem(BlockList.uranium_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("uranium_ore")),
                     ItemList.zinc_ore = (new BlockItem(BlockList.zinc_ore, (new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("zinc_ore")),
 
