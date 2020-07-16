@@ -2,10 +2,11 @@ package com.stc.centralizedmaterials.update;
 
 import com.stc.centralizedmaterials.CentralizedMaterialsMod;
 import com.stc.centralizedmaterials.config.Configuration;
-import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
@@ -13,7 +14,6 @@ import net.minecraftforge.forgespi.language.IModInfo;
 
 @Mod.EventBusSubscriber(modid = CentralizedMaterialsMod.modid, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class VersionChecker {
-
 
     private static boolean isNewerVersion(String v1, String v2) {
         if (v1 == null || v2 == null) {
@@ -37,7 +37,7 @@ public class VersionChecker {
 
     @OnlyIn(Dist.CLIENT)
     @SubscribeEvent
-    public static void onJoinGame(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent event) {
+    public static void onJoinGame(PlayerEvent.PlayerLoggedInEvent event) {
         if (!Configuration.COMMON.showNewUpdateNotifications.get())
             return;
         System.out.println("Checking for update on join...");
@@ -50,6 +50,6 @@ public class VersionChecker {
             return;
         }
         System.out.println("Update available for Centralized Materials");
-        event.getPlayer().sendMessage(new TextComponentTranslation("text.new_update_notification", TextFormatting.GREEN + "Centralized Materials!" + TextFormatting.RED + " " +result.target.toString()));
+        event.getPlayer().sendMessage(new TranslationTextComponent("text.new_update_notification", TextFormatting.GREEN + "Centralized Materials!" + TextFormatting.RED + " " +result.target.toString()));
     }
 }

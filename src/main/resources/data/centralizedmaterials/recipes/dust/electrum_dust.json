@@ -1,8 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "TC ",
-	"CC "
+    "GS"
   ],
   "key": {
     "G": {
@@ -14,6 +13,6 @@
   },
   "result": {
     "item": "centralizedmaterials:electrum_dust",
-	"count": 2
+    "count": 2
   }
 }

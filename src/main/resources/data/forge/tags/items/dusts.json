@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:dusts/aluminium",
+    "#forge:dusts/aluminum",
+    "#forge:dusts/brass",
+    "#forge:dusts/bronze",
+    "#forge:dusts/copper",
+    "forge:dusts/diamond",
+    "#forge:dusts/electrum",
+    "#forge:dusts/gold",
+    "#forge:dusts/iron",
+    "#forge:dusts/invar",
+    "#forge:dusts/lead",
+    "#forge:dusts/nickel",
+    "#forge:dusts/obsidian",
+    "#forge:dusts/platinum",
+    "#forge:dusts/refined_iron",
+    "#forge:dusts/silver",
+    "#forge:dusts/steel",
+    "#forge:dusts/tin",
+    "#forge:dusts/titanium",
+    "#forge:dusts/tungsten",
+    "#forge:dusts/uranium",
+    "#forge:dusts/zinc"
+  ]
+}
