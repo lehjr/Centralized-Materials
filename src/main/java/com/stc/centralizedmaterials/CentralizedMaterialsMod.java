@@ -145,7 +145,6 @@ public class CentralizedMaterialsMod {
                     ItemList.zinc_ingot = (new Item((new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("zinc_ingot")),
 
 
-
                     ItemList.aluminium_dust = (new Item((new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("aluminium_dust")),
                     ItemList.brass_dust = (new Item((new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("brass_dust")),
                     ItemList.bronze_dust = (new Item((new Item.Properties()).group(ItemTabs.tabCentralixedMaterials))).setRegistryName(location("bronze_dust")),
